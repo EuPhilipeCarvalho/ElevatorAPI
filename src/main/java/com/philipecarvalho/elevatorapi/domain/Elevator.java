@@ -36,7 +36,7 @@ public class Elevator {
     }
 
     //JPA requer construtor vazio
-    public Elevator() {
+    protected Elevator() {
     }
 
     public void addPassenger() {
