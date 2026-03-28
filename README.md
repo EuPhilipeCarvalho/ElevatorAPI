@@ -1,5 +1,12 @@
 # Elevator API — Spring Boot
 
+## 🌐 Deploy
+API disponível em produção:
+
+🔗 [Documentação](https://elevatorapi-production-b41d.up.railway.app/swagger-ui/index.html)
+
+---
+
 ## 📌 Sobre o projeto
 
 API REST desenvolvida em Java com Spring Boot para simular o gerenciamento e controle de elevadores, aplicando boas práticas de arquitetura back-end, separação de responsabilidades, tratamento de erros e testes automatizados.
@@ -76,9 +83,9 @@ Cenários cobertos:
 | `PATCH` | `/elevators/{id}/up` | Sobe um andar |
 | `PATCH` | `/elevators/{id}/down` | Desce um andar |
 
-A documentação interativa completa está disponível via Swagger ao rodar a aplicação:
+A documentação interativa completa está disponível via Swagger:
 ```
-http://localhost:8080/swagger-ui/index.html
+https://elevatorapi-production-b41d.up.railway.app/swagger-ui/index.html
 ```
 
 ---
