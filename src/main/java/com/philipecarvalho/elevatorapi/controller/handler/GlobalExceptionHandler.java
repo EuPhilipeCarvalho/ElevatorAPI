@@ -57,7 +57,7 @@ public class GlobalExceptionHandler {
             LastFloorException.class,
             GroundFloorException.class
     })
-    public ResponseEntity<ErrorResponse> handleElevatorFullException(RuntimeException ex, HttpServletRequest request) {
+    public ResponseEntity<ErrorResponse> handleBadRequests(RuntimeException ex, HttpServletRequest request) {
         ErrorResponse error = new ErrorResponse(
                 LocalDateTime.now(),
                 HttpStatus.BAD_REQUEST.value(),
